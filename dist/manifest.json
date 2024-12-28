@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "My Chrome Extension",
+    "version": "1.0.0",
+    "description": "hey this is Pratham, here is a simple chrome extension which helps change the background colour of the webpage",
+    "icons": {
+      "32": "icon32.png"
+    },
+    "action":{
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+  }
