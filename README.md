@@ -12,7 +12,7 @@ This Chrome extension allows users to change the background color of any webpage
 ---
 
 ## 📸 Screenshot
-![Extension Thumbnail](./assets/thumbnail.png)
+![Extension Thumbnail](./src/assets/thumbnail.png)
 
 *Thumbnail of the extension as it appears in the Chrome Web Store.*
 
