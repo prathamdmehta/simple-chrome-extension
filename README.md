@@ -52,11 +52,3 @@ For questions or suggestions, reach out to me at [mehta2935@example.com](mailto:
 
 ## 📜 License
 This project is licensed under the MIT License.
-```
-
-### Steps to Add the Thumbnail Image:
-1. Place your thumbnail image (e.g., `thumbnail.png`) in a folder inside your repository, such as `assets/thumbnail.png`.
-2. Update the path in the `![Extension Thumbnail](./assets/thumbnail.png)` line to match your image location.
-3. Commit and push the changes to your GitHub repository.
-
-When users view your repository on GitHub, the image will display in the README file.
