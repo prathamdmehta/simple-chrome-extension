@@ -20,7 +20,7 @@ This Chrome extension allows users to change the background color of any webpage
 
 1. Clone this repository:
 
-   git clone https://github.com/prathamdmehta/simple=chrome-extension.git
+   git clone 'https://github.com/prathamdmehta/simple-chrome-extension.git'
    
 
 2. Install dependencies:
