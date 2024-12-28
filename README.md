@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# Chrome Extension: Background Color Changer 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This Chrome extension allows users to change the background color of any webpage, adding a touch of personalization to their browsing experience. Built with **React** and **TypeScript**, this lightweight tool combines simplicity and functionality.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔥 Features
+- Change the background color of any webpage.
+- Easy to use and highly customizable.
+- Built with cutting-edge web development tools.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📸 Screenshot
+![Extension Thumbnail](./assets/thumbnail.png)
 
-- Configure the top-level `parserOptions` property like this:
+*Thumbnail of the extension as it appears in the Chrome Web Store.*
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+
+   git clone https://github.com/prathamdmehta/simple=chrome-extension.git
+   
+
+2. Install dependencies:
+   
+   npm install
+   
+
+3. Run the development server:
+   
+   npm run build
+   
+
+4. Load the unpacked extension in Chrome:
+   - Open `chrome://extensions/`.
+   - Enable **Developer mode**.
+   - Click **Load unpacked** and select the dist folder.
+
+---
+
+## 🤝 Contributing
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## 📧 Contact
+For questions or suggestions, reach out to me at [mehta2935@example.com](mailto:mehta2935@example.com).
+
+---
+
+## 📜 License
+This project is licensed under the MIT License.
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Steps to Add the Thumbnail Image:
+1. Place your thumbnail image (e.g., `thumbnail.png`) in a folder inside your repository, such as `assets/thumbnail.png`.
+2. Update the path in the `![Extension Thumbnail](./assets/thumbnail.png)` line to match your image location.
+3. Commit and push the changes to your GitHub repository.
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+When users view your repository on GitHub, the image will display in the README file.
